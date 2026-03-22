@@ -4,17 +4,20 @@ Homebrew tap for [Mergen](https://github.com/sametsazak/mergen) — macOS securi
 
 ## Install
 
-```bash
-brew tap sametsazak/mergen
-```
-
 **CLI tool:**
 ```bash
-brew install mergen
+brew install sametsazak/mergen/mergen
 ```
 
 **GUI app:**
 ```bash
+brew install --cask sametsazak/mergen/mergen-app
+```
+
+Or tap first if you prefer:
+```bash
+brew tap sametsazak/mergen
+brew install mergen
 brew install --cask mergen-app
 ```
 
