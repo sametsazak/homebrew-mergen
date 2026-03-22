@@ -1,10 +1,10 @@
 class Mergen < Formula
   desc "macOS security auditing CLI — CIS Benchmark checks and auto-remediation"
   homepage "https://github.com/sametsazak/mergen"
-  url "https://github.com/sametsazak/mergen/archive/refs/tags/v2.1.tar.gz"
-  sha256 "0868de7435e01463466b2724125280ff1dbcd723bbd26d4cf1e3ca499844dca0"
+  url "https://github.com/sametsazak/mergen/archive/refs/tags/v2.2.tar.gz"
+  sha256 "069cc7e2f12416f7053d26db845755aa5aa60d60d9b83992d14eda13bebe1b57"
   license "MIT"
-  version "2.1"
+  version "2.2"
 
   depends_on :macos
   depends_on "go" => :build
